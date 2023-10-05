@@ -1,7 +1,7 @@
 # Личный проект «Кекстаграм»
 
 * Студент: [Ирина Пронина](https://up.htmlacademy.ru/javascript/30/user/2002729).
-* Наставник: [Павел Позняк] (https://htmlacademy.ru/profile/id907403).
+* Наставник: [Павел Позняк](https://htmlacademy.ru/profile/id907403).
 
 ---
 
