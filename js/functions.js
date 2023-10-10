@@ -14,4 +14,4 @@ const getNumbers = (string) => {
   return parseInt(string, 10);
 };
 
-getNumbers('keks');
+getNumbers('2023');
