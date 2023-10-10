@@ -1,17 +1,17 @@
-function stringLength (string, length) {
-  return string.length <= length;
-}
+const checkStringLength = (string, length) => string.length <= length;
 
-stringLength('проверяемая строка', 10);
+checkStringLength('проверяемая строка', 10);
 
-function palindrome (string) {
-  const normalString = string.replaceAll(' ', '').toUpperCase();
+const isPalindrome = (string) => {
+  string = string.replaceAll(' ', '').toUpperCase();
+  return string === string.split('').reverse().join('');
+};
 
-  let result = '';
-  for (let i = normalString.length - 1; i >= 0; i--) {
-    result += normalString[i];
-  }
-  return result === normalString;
-}
+isPalindrome('топот');
 
-palindrome('топот');
+const getNumbers = (string) => {
+  string = String(string).replace(/[^0-9]/g,'');
+  return parseInt(string, 10);
+};
+
+getNumbers('keks');
